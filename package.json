@@ -1,0 +1,26 @@
+{
+  "name": "ohlc-bar-chart",
+  "version": "0.0.1",
+  "description": "Receives trade data and compute trade data and send back to the client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "startClient": "node controllers/webSocketClient.js"
+  },
+  "author": "Shailesh Dhobale",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "1.17.1",
+    "express": "^4.4.2",
+    "fs": "0.0.1-security",
+    "joi": "^13.0.2",
+    "lodash": "^4.17.20",
+    "log4js": "^1.1.1",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "socket.io": "^3.0.3",
+    "ws": "^7.4.0"
+  }
+}

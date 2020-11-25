@@ -1,0 +1,15 @@
+{
+    "environmentType": "local",
+    "envConfig": {
+        "local": {
+            "port": 8000,
+            "securePort": 443,
+            "worker1": "./receiveTradeData.js",
+            "worker2": "./fsm.js",
+            "worker3": "./webSocketServer.js",
+            "tradeData": "./../data/trades.json",
+            "logLevel": "DEBUG",
+            "fsmWorkerStarted": false
+        }
+    }
+}
