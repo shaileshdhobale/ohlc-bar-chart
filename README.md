@@ -35,13 +35,15 @@ The following sections provide instructions on locally building the project:
 
 ### Project Installation
 
-* You can download a copy of the package from the Git repository (and branch) in BitBucket (or) alternatively retrieve a specific version of the package from the npm registry
+* You can download a copy of the package from the Git repository (and branch) in GitHub (or) download the zip folder
 
 #### Clone from a git repository
 
 ```sh
 # Clone project from gitHub to required project-folder
-gh repo clone shaileshdhobale/upstox_trading
+# Download zip folder and extract
+
+cd ohlc-bar-chart-master
  
 ```
 
@@ -51,4 +53,13 @@ gh repo clone shaileshdhobale/upstox_trading
 # Run install to pull in all dependencies specified in package.json
 
 npm install
+
+# To start the express server
+
+npm start
+
+# To start the webSocket client server
+
+npm run startClient
+
 ```
